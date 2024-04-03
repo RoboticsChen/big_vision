@@ -8,7 +8,7 @@ setup(
     install_requires=[
         "numpy>=1.26",
         "absl-py",
-        "CommonLoopUtils @ git+https://github.com/google/CommonLoopUtils",
+        "clu @ git+https://github.com/google/CommonLoopUtils",
         "distrax",
         "einops",
         "flax",
